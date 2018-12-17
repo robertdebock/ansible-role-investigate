@@ -1,0 +1,36 @@
+---
+# vars file for investigate
+_investigate_packages:
+  Alpine:
+    - net-tools
+    - busybox-extras
+    - tcpdump
+  Archlinux:
+    - net-tools
+    - tcpdump
+  Debian:
+    - net-tools
+    - tcpdump
+    - telnet
+  CentOS:
+    - net-tools
+    - tcpdump
+    - telnet
+  Fedora:
+    - net-tools
+    - tcpdump
+    - telnet
+  openSUSE Leap:
+    - net-tools
+    - tcpdump
+    - telnet
+  openSUSE Tumbleweed:
+    - net-tools
+    - tcpdump
+    - telnet
+  Ubuntu:
+    - net-tools
+    - tcpdump
+    - telnet
+
+investigate_packages: "{{ _investigate_packages[ansible_distribution] }}"
