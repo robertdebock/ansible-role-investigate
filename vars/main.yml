@@ -5,32 +5,48 @@ _investigate_packages:
     - net-tools
     - busybox-extras
     - tcpdump
+    - bash
+    - curl
   Archlinux:
     - net-tools
     - tcpdump
+    - bash
+    - curl
   Debian:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
   CentOS:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
   Fedora:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
   openSUSE Leap:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
   openSUSE Tumbleweed:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
   Ubuntu:
     - net-tools
     - tcpdump
     - telnet
+    - bash
+    - curl
 
 investigate_packages: "{{ _investigate_packages[ansible_distribution] }}"
