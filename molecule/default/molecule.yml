@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: investigate-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: investigate-ubuntu-artful
-    image: ubuntu:artful
+  - name: investigate-ubuntu-latest
+    image: ubuntu:latest
+  - name: investigate-ubuntu-rolling
+    image: ubuntu:rolling
   - name: investigate-ubuntu-devel
     image: ubuntu:devel
 provisioner:
