@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: investigate-opensuse-leap
     image: opensuse:leap
-  - name: investigate-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: investigate-ubuntu-latest
     image: ubuntu:latest
   - name: investigate-ubuntu-rolling
