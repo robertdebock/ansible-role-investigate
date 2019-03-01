@@ -48,14 +48,6 @@ _investigate_packages:
     - bash-completion
     - curl
     - screen
-  openSUSE Tumbleweed:
-    - net-tools
-    - tcpdump
-    - telnet
-    - bash
-    - bash-completion
-    - curl
-    - screen
   Ubuntu:
     - net-tools
     - tcpdump
