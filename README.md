@@ -31,9 +31,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for investigate
-
-# To update packages this role places on the system, set `investigate_package_state` to `latest`.
-investigate_package_state: present
 ```
 
 Requirements
