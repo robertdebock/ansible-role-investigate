@@ -39,6 +39,5 @@ galaxy_info:
     - investigate
     - archlinux
     - centos
-    - rhel
 
 dependencies: []
