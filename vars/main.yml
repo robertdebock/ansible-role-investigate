@@ -9,13 +9,6 @@ _investigate_packages:
     - bash-completion
     - curl
     - screen
-  Archlinux:
-    - net-tools
-    - tcpdump
-    - bash
-    - bash-completion
-    - curl
-    - screen
   Debian:
     - net-tools
     - tcpdump
