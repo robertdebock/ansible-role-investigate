@@ -1,5 +1,6 @@
 ---
 # vars file for investigate
+
 _investigate_packages:
   Alpine:
     - net-tools
