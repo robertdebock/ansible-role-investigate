@@ -4,6 +4,3 @@
   package:
     name: "{{ investigate_packages }}"
     state: present
-  register: investigate_install_investigate
-  until: investigate_install_investigate is succeeded
-  retries: 3
