@@ -2,9 +2,9 @@
 
 Install and configure investigation tools on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-investigate/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-investigate/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-investigate/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-investigate)|[![quality](https://img.shields.io/ansible/quality/35590)](https://galaxy.ansible.com/robertdebock/investigate)|[![downloads](https://img.shields.io/ansible/role/d/35590)](https://galaxy.ansible.com/robertdebock/investigate)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-investigate.svg)](https://github.com/robertdebock/ansible-role-investigate/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-investigate/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-investigate/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-investigate/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-investigate)|[![downloads](https://img.shields.io/ansible/role/d/24516)](https://galaxy.ansible.com/robertdebock/investigate)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-investigate.svg)](https://github.com/robertdebock/ansible-role-investigate/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -78,7 +78,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-investigate/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-investigate/issues).
 
 ## [License](#license)
 
