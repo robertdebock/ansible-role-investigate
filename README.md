@@ -1,4 +1,4 @@
-# Ansible role [investigate](#investigate)
+# [Ansible role investigate](#investigate)
 
 Install and configure investigation tools on your system.
 
