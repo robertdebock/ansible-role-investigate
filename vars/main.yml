@@ -16,7 +16,7 @@ _investigate_packages:
     - telnet
     - bash
     - bash-completion
-    - curl-minimal
+    - curl
     - screen
   Debian:
     - net-tools
