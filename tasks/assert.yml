@@ -1,0 +1,7 @@
+---
+- name: assert | Test investigate_custom_package
+  ansible.builtin.assert:
+    that:
+      - investigate_custom_package is defined
+      - investigate_custom_package | type_debug == "list"
+    quiet: yes
