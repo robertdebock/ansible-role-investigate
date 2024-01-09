@@ -42,4 +42,4 @@ _investigate_packages:
     - curl
     - screen
 
-investigate_packages: "{{ _investigate_packages[ansible_os_family] }}"
+investigate_packages: "{{ _investigate_packages[ansible_distribution] | default(_investigate_packages[ansible_os_family]) }}"
